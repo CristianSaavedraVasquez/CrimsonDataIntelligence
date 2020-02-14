@@ -543,9 +543,9 @@ footer{
   }
 
 }
-@media screen and (max-height:600px) {
+@media screen and (max-height:800px) {
   .contenedor3{
-    max-height: 400px;
+    max-height: 680px;
   }
 
 }
