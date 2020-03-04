@@ -293,6 +293,7 @@ main .sobre-nosotros{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right:55px;
 }
 
 .servicio-ind{
