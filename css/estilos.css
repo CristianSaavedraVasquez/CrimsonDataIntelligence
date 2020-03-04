@@ -471,6 +471,24 @@ input[type="submit"]:hover{
     width: 300px;
     height: 300px;
   }
+      /*Contacto*/
+  input[type="text"]{
+    margin-left: 0px;
+  }
+  input[type="email"]{
+      margin-left: 0px;
+  }
+
+  .form textarea{
+    width: 32%;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 280px;
+  }
+
+  input[type="submit"]{
+      width: 200px;
+  }
   }
 
 @media screen and (max-width:500px) {
