@@ -118,7 +118,7 @@ main .sobre-nosotros{
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
-    background:
+    
 }
 .imagen-bigdata{
   width: 200px;
@@ -293,6 +293,7 @@ main .sobre-nosotros{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right:55px;
 }
 
 .servicio-ind{
