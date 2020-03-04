@@ -1,138 +1,582 @@
-<!DOCTYPE html>
-<html lang="es">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crimson Data Intelligence</title>
-    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
-</head>
+}
 
-<body>
-  <header>
-    <nav class="contenedor5">
-         <div class="logo">
-               <img src="img/logo.png" alt="">
-        </div>
-        <div class="enlaces">
-          <a href="/">Inicio</a>
-          <a href="/rutas/colaboradores.html">Colaboradores</a>
-          <a href="/rutas/fundadores.html">Fundadores</a>
-          <a href="/rutas/contacto.html">Contacto</a>
-        </div>
+html{
+    scroll-behavior: smooth;
+}
 
-    </nav>
-  </header>
-    <div class="contenedor3">
-      <div class="slider">
-          <section class="textos-header">
-              <h1><a name="slide">Potencia tu Negocio con BigData</a></h1>
-              <h2>Conoce mejor que nunca a tu cliente</h2>
-          </section>
+body {
+    font-family: 'open sans';
+}
 
-          <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                  style="height: 100%; width: 100%;">
-                  <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                      style="stroke: none; fill: #fff;"></path>
-              </svg></div>
-      </div>
-      <main>
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor2{
+  display: flex;
+  width: 100%;
+  height: 0px;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.contenedor3{
+  overflow: auto;
+  height: 100%;
+  max-height: auto;
+}
+.contenedor4{
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: -100px;
+}
 
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo"><a name="servicio">Nuestros servicios</A></h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/machinelearning.svg" alt="">
-                        <h3>MachineLearning y DeepLearning</h3>
-                        <p>Machine Learning es una disciplina científica del ámbito de
-                           la Inteligencia Artificial que crea sistemas que aprenden automáticamente.
-                            Aprender en este contexto quiere decir identificar patrones complejos en
-                             millones de datos.</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/bigdata.svg" alt="">
-                        <h3>Big Data y Analisis de Datos</h3>
-                        <p>Almacenamiento de grandes cantidades de datos y
-                          a los procedimientos usados para encontrar patrones repetitivos dentro de esos datos</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/datascience.svg" alt="">
-                        <h3>DataScience</h3>
-                        <p>Es la ciencia centrada en el estudio de los datos. Se encarga de extraer información de
-                           grandes cantidades de datos. Data Science combina la estadística, las matemáticas y la
-                            informática para interpretar datos. El objetivo es tomar decisiones.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-          <section class="sobre-nosotros tamaño">
-              <h2 class="titulo"><a name="producto">Nuestro producto</a></h2>
-              <div class="contenedor-sobre-nosotros">
-                  <img src="img/nuestroproducto.svg" alt="" class="imagen-about-us">
-                  <div class="contenido-textos">
-                      <h3><span>1</span> ¿Qué es el BigData?</h3>
-                      <p>Consiste en complejos conjuntos de datos de gran tamaño, procedentes de bases de datos que
-                        poseen tal volumen que no pueden ser procesados ni administrados por Softwares convencionales
-                        , sin embargo, se pueden procesar con tecnologías avanzadas.</h3>
-                      <h3><span>2</span> Entonces ¿Me sirve para mi empresa?</h3>
-                      <p>¡Demasiado! Los datos son el nuevo motor de las grandes decisiones para las empresas del futuro,
-                         el procesamiento de estos revela información valiosa para tus decisiones, inversiones, cambios,
-                          mejoras e incluso hacía dónde dirigir tu negocio.</p>
-                  </div>
-              </div>
-          </section>
+.contenedor6{
+  overflow: auto;
+  height: 100%;
+  max-height: 583px;
+}
 
-          <section class="contendor bigdata sobre-nosotros">
-            <h2 class="titulo"><a name="bigdata">Las 3 V del BigData</a></h2>
-            <div class="contenedor-sobre-nosotros">
-            <div class="contenedor4">
-              <img src="img/volumen.svg" alt="" class="imagen-bigdata">
-              <img src="img/velocidad.svg" alt="" class="imagen-bigdata">
-              <img src="img/variedad.svg" alt="" class="imagen-bigdata">
-            </div>
-                <div class="contenido-textos">
-                  <div class="separacion1">
-                    <h3><span>1</span> Volumen</h3>
-                    <p>La cantidad de datos es fundamental, a través del BigData se procesan grandes volúmenes de datos,
-                       de diferentes fuentes con distintas formas. Hablamos de que en algunos casos se pueden llegar a procesar
-                        decenas de Terabytes o incluso Petabytes.</p>
-                    </div>
-                    <div class="separacion2">
-                    <h3><span>2</span> Velocidad</h3>
-                    <p>Sin este punto no sería viable el BigData, debido a las inmensas cantidades de datos mantener una buena
-                       velocidad de procesamiento es un gran reto, sin embargo fundamental. En Crimson trabajamos con las
-                        tecnologías más modernas para hacer esto posible.</p>
-                    </div>
-                    <div class="separacion1">
-                    <h3><span>3</span>Variedad </h3>
-                    <p>La variedad hace referencia a los diversos tipos de datos disponibles. Los tipos de datos convencionales
-                       eran estructurados y podían organizarse claramente en una base de datos relacional. Con el auge del
-                        BigData, los datos se presentan en nuevos tipos de datos no estructurados. Los tipos de datos no
-                         estructurados y semiestructurados, como el texto, audio o video, requieren un preprocesamiento adicional
-                          para poder obtener significado y habilitar los metadatos.</p>
-                  </div>
-                </div>
-            </div>
-<!--          <footer>
-              <div class="contenedor-footer">
-                  <div class="content-foo">
-                      <h4>Instagram</h4>
-                      <p>@crimson.cl</p>
-                  </div>
-              </div>
-          </footer>-->
 
-      </main>
-      </div>
-      <footer>
-              <div class="content-foo">
-                  <h2 class="titulo-final">&copy; Crimson| Cristian Saavedra | Martin Ortega</h2>
-              </div>
-      </footer>
-</body>
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
 
-</html>
+.enlaces{
+  padding-top: 30px;
+  font-weight: 400;
+  margin: auto;
+  padding-bottom: 50px;
+  margin-right: 50px;
+
+}
+
+.hero{
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/banner.jpg);    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-hero{
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-hero h1{
+    font-size: 60px;
+}
+
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textos-hero a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: #a18cd1;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    background:
+}
+.imagen-bigdata{
+  width: 200px;
+  height: 200px;
+}
+.separacion1{
+  margin-top: 23px;
+}
+.separacion2{
+  margin-top: 23px;
+}
+.separacion3{
+  margin-top: 23px;
+}
+.division-img{
+  margin-left: -231px;
+  margin-bottom: -161px;
+}
+
+/* About us */
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tamaño{
+  background: #f2f2f2;
+}
+
+.imagen-about-us{
+    width: 30%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Galeria */
+
+
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/* Clients */
+
+.clientes{
+  background: #fff;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom: 60px;
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/* Our Team*/
+
+.about-services{
+  background: #fff;
+  padding-bottom:30px;
+}
+
+.servicio-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicio-ind{
+  width: 28%;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.servicio-ind img{
+  width: 90%;
+}
+
+.servicio-ind h3{
+  margin: 10px 0;
+}
+.servicio-ind p{
+  font-weight: 300;
+  text-align: justify;
+}
+
+/*Footer*/
+
+
+footer{
+    background: #f2f2f2;
+    color: #000000;
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: #000000;
+    outline: none;
+    border: 1px  solid #000000;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: #000000;
+    font-family: 'open sanzs';
+}
+
+input[type="text"]{
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 30px;
+  margin-left: 280px;
+}
+input[type="email"]{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-right: 256px;
+}
+
+.form textarea{
+    width: 62%;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 280px;
+}
+
+input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to right, #C6426E, #642B73);
+    text-align: center;
+    padding: 14px 0;
+    margin-left: 280px;
+    margin-top:10px;
+    color:#fff;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right, #C6426E, #642B73);
+}
+
+
+@media screen and (max-width:900px) {
+  header{
+    background-position:center;
+  }
+  nav > a{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contenedor-sobre-nosotros{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .sobre-nosotros .contenido-textos{
+    width:90%;
+  }
+  .imagen-about-us{
+    width: 90%;
+  }
+
+  .navbar .navbar-brand img{
+      margin-left: 40px;
+      margin-right: 50px;
+      margin-top: -30px;
+      max-width: 15vw;
+  }
+  /*BigData*/
+  .contenedor4{
+    width: 300px;
+    height: 90px;
+    margin-top: -16px;
+  }
+  .imagen-bigdata{
+    width: 90px;
+    height: 90px;
+  }
+
+  /*Galeria*/
+
+  .imagen-port{
+    width: 44%;
+  }
+
+  /*Clientes*/
+
+  .cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards .card{
+    width: 90%;
+  }
+
+  .cards .card:first-child{
+    margin-bottom: 30px;
+  }
+
+  /*Servicios*/
+  .servicio-cont{
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .servicio-ind{
+    width: 100%;
+    text-align:center;
+  }
+
+  .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+    margin-bottom: 60px;
+  }
+
+  .servicio-ind img{
+    width: 90%;
+  }
+  .contenedor-footer{
+   font-size: 10px;
+  }
+  .division-img{
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .imagen-bigdata {
+    width: 300px;
+    height: 300px;
+  }
+  }
+
+@media screen and (max-width:500px) {
+  nav{
+    text-align:center;
+    padding: 30px 0 0 0;
+  }
+
+  nav > a {
+      font-size: 10px;
+      margin-left: 6px;
+      margin-right: 3px;
+      margin-top:30px;
+  }
+  .textos-hero h1{
+      text-align: center;
+      font-size: 50px;
+  }
+  .textos-hero p{
+    text-align: center;
+    font-size: 20px;
+
+  }
+
+  .textos-header h1{
+    font-size: 35px;
+  }
+
+  .textos-header h2{
+    font-size: 20px;
+  }
+  /*BigData*/
+  .contenedor4{
+    width: 300px;
+    height: 100px;
+    margin-top: -16px;
+  }
+  .imagen-bigdata{
+    width: 90px;
+    height: 90px;
+  }
+
+  /*About Us*/
+
+  .imagen-about-us{
+    margin-bottom: 60px;
+    width: 99%;
+  }
+
+  .sobre-nosotros .contenido-textos{
+    width: 95%;
+  }
+
+  /*Galeria*/
+
+  .imagen-port{
+    width: 95%;
+  }
+
+  /*Clientes*/
+
+  .cards .card{
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .cards .card img{
+    width: 90px;
+    height: 90px;
+  }
+
+  /*Footer*/
+
+  .contenedor-footer{
+    flex-direction: column;
+    border: none;
+  }
+
+  .content-foo{
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .content-foo h4{
+    border:none;
+  }
+  .content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+  }
+
+  .titulo-final{
+    font-size:17px;
+  }
+  .division-img{
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .imagen-bigdata {
+    width: 300px;
+    height: 300px;
+  }
+
+}
