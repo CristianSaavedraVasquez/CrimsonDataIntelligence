@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crimson Data Intelligence</title>
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="hero">
+      <div class="textos-hero">
+          <h1>Bienvenido a Website</h1>
+          <p>Creamos el mejor sitio web para ti</p>
+          <a href="#contacto">Contactanos</a>
+      </div>
+          <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                  <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
+              </svg></div>
+  </header>
+
+      <main>
+
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo"><a name="servicio">Nuestros servicios</A></h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/machinelearning.svg" alt="">
+                        <h3>MachineLearning y DeepLearning</h3>
+                        <p>Machine Learning es una disciplina científica del ámbito de
+                           la Inteligencia Artificial que crea sistemas que aprenden automáticamente.
+                            Aprender en este contexto quiere decir identificar patrones complejos en
+                             millones de datos.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/bigdata.svg" alt="">
+                        <h3>Big Data y Analisis de Datos</h3>
+                        <p>Almacenamiento de grandes cantidades de datos y
+                          a los procedimientos usados para encontrar patrones repetitivos dentro de esos datos</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/datascience.svg" alt="">
+                        <h3>DataScience</h3>
+                        <p>Es la ciencia centrada en el estudio de los datos. Se encarga de extraer información de
+                           grandes cantidades de datos. Data Science combina la estadística, las matemáticas y la
+                            informática para interpretar datos. El objetivo es tomar decisiones.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/paginas.svg" alt="">
+                        <h3>Pagina Webs</h3>
+                        <p>Desarrollo y Diseño de páginas web para tu empresa y/o negocio. Construye tu plataforma base
+                           y otorga el nivel profesional que exige el mercado. Realizamos desde Landing Page's hasta Páginas
+                            con funcionalidades avanzadas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <section class="sobre-nosotros tamaño">
+              <h2 class="titulo"><a name="producto">Nuestro producto</a></h2>
+              <div class="contenedor-sobre-nosotros">
+                  <img src="img/nuestroproducto.svg" alt="" class="imagen-about-us">
+                  <div class="contenido-textos">
+                      <h3><span>1</span> ¿Qué es el BigData?</h3>
+                      <p>Consiste en complejos conjuntos de datos de gran tamaño, procedentes de bases de datos que
+                        poseen tal volumen que no pueden ser procesados ni administrados por Softwares convencionales
+                        , sin embargo, se pueden procesar con tecnologías avanzadas.</h3>
+                      <h3><span>2</span> Entonces ¿Me sirve para mi empresa?</h3>
+                      <p>¡Demasiado! Los datos son el nuevo motor de las grandes decisiones para las empresas del futuro,
+                         el procesamiento de estos revela información valiosa para tus decisiones, inversiones, cambios,
+                          mejoras e incluso hacía dónde dirigir tu negocio.</p>
+                  </div>
+              </div>
+          </section>
+
+          <section class="contendor bigdata sobre-nosotros">
+            <h2 class="titulo"><a name="bigdata">Las 3 V del BigData</a></h2>
+            <div class="contenedor-sobre-nosotros">
+            <div class="contenedor4">
+            </div>
+                <div class="contenido-textos">
+                  <div class="division-img">
+                  <img src="img/volumen.svg" alt="" class="imagen-bigdata">
+                  </div>
+                  <div class="separacion1">
+                    <h3><span>1</span> Volumen</h3>
+                    <p>La cantidad de datos es fundamental, a través del BigData se procesan grandes volúmenes de datos,
+                       de diferentes fuentes con distintas formas. Hablamos de que en algunos casos se pueden llegar a procesar
+                        decenas de Terabytes o incluso Petabytes.</p>
+                    </div>
+                    <div class="division-img">
+                      <img src="img/velocidad.svg" alt="" class="imagen-bigdata">
+                    </div>
+                    <div class="separacion2">
+                    <h3><span>2</span> Velocidad</h3>
+                    <p>Sin este punto no sería viable el BigData, debido a las inmensas cantidades de datos mantener una buena
+                       velocidad de procesamiento es un gran reto, sin embargo fundamental. En Crimson trabajamos con las
+                        tecnologías más modernas para hacer esto posible.</p>
+                    </div>
+                      <div class="division-img">
+                      <img src="img/variedad.svg" alt="" class="imagen-bigdata">
+                    </div>
+                    <div class="separacion3">
+                    <h3><span>3</span>Variedad </h3>
+                    <p>La variedad hace referencia a los diversos tipos de datos disponibles. Los tipos de datos convencionales
+                       eran estructurados y podían organizarse claramente en una base de datos relacional. Con el auge del
+                        BigData, los datos se presentan en nuevos tipos de datos no estructurados. Los tipos de datos no
+                         estructurados y semiestructurados, como el texto, audio o video, requieren un preprocesamiento adicional
+                          para poder obtener significado y habilitar los metadatos.</p>
+                  </div>
+                </div>
+            </div>
+
+          <section class="portafolio">
+                       <div class="contenedor">
+                           <h2 class="titulo"><a name="portafolio">Colaboradores</a></h2>
+                           <div class="galeria-port">
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador1.jpg" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>ImmediateLab</p>
+                                       <a href="tel:+56944891929" style="color:#fff; text-decoration:none">+56944891929</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador2.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Espacio126</p>
+                                       <a href="https://www.instagram.com/espacio126.cl/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @espacio126.cl</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador3.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Corporación Motum</p>
+                                       <a href="https://www.instagram.com/motumcl/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @motumcl</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador4.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Centro Cultural Líderes</p>
+                                       <a href="https://www.instagram.com/lideres.cc/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @lideres.cc</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador5.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Geandce digital partner</p>
+                                       <a href="https://www.instagram.com/geandcedigital/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @geandcedigital</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->               <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->                       <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->                         <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </section>
+                   <section class="clientes">
+                       <h2 class="titulo"><a name="creadores">Fundadores</a></h2>
+                       <div class="cards">
+                           <div class="card">
+                               <img src="/img/cristian.jpeg" alt="">
+                               <div class="contenido-texto-card">
+                                   <h4>Cristian Saavedra</h4>
+                                   <p>Programador y Desarrollador</p>
+                                   <p>Co-Founder</p>
+                                   <p>+56940453889</p>
+                               </div>
+                           </div>
+                           <div class="card">
+                               <img src="/img/martin.jpg" alt="">
+                               <div class="contenido-texto-card">
+                                   <h4>Martin Ortega</h4>
+                                   <p>Diseñador e Ilustrador<p>
+                                   <p>Co-Founder</p>
+                                   <p>+56991866897</p>
+                               </div>
+                           </div>
+                       </div>
+
+                   </section>
+             </main>
+             <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                 style="height: 100%; width: 100%;">
+                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                     style="stroke: none; fill: #f2f2f2f2"></path>
+             </svg></div>
+        <footer id="contacto">
+          <form method="post">
+            <h2>Contactanos</h2>
+           <input type="text" name="nombre" class="nombre"  placeholder="Nombre y Apellido" required="">
+           <input type="email" name="correo" class="correo" placeholder="Correo" required="">
+           <input type="text" name="telefono" class="telefono" placeholder="Telefono" required="">
+           <textarea name="msg" rows="8" cols="80" placeholder="Mensaje"></textarea>
+           <input type="submit" name="enviar" value="">
+          </form>
+        </footer>
+        <?php
+          include("correo.php");
+        ?>
+</body>
+
+</html>
