@@ -344,22 +344,23 @@ footer{
 
 input[type="text"]{
   display: inline-block;
-  width: 30%;
-  margin-bottom: 30px;
+  width: 20%;
+  margin-bottom: 150px;
   margin-left: 280px;
 }
 input[type="email"]{
     display: inline-block;
-    width: 30%;
+    width: 20%;
     margin-bottom: 30px;
-    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 180px;
 }
 
 .form textarea{
-    width: 62%;
-    height: 200px;
-    margin-bottom: 15px;
-    margin-left: 280px;
+  width: 62%;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-left: 280px;
 }
 
 input[type="submit"]{
