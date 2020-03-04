@@ -80,7 +80,7 @@ body {
 .textos-hero{
     height: 500px;
     color: #fff;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
