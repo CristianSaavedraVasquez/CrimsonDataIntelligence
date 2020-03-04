@@ -6,35 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crimson Data Intelligence</title>
-    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-             <a href="#slide">Inicio</a>
-             <a href="#servicio">Nuestro Servicios</a>
-             <a href="#producto">Nuestro Producto</a>
-             <a href="#bigdata">Las 3 V del BigData</a>
-             <a href="#portafolio">Portafolio</a>
-             <a href="#creadores">Fundadores</a>
-  </nav>
-
-    <div class="contenedor3">
-      <header>
-          <section class="textos-header">
-              <h1><a name="slide">Potencia tu Negocio con BigData</a></h1>
-              <h2>Conoce mejor que nunca a tu cliente</h2>
-          </section>
-
-          <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                  style="height: 100%; width: 100%;">
-                  <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                      style="stroke: none; fill: #fff;"></path>
+  <header class="hero">
+      <div class="textos-hero">
+          <h1>Bienvenido a Website</h1>
+          <p>Creamos el mejor sitio web para ti</p>
+          <a href="#contacto">Contactanos</a>
+      </div>
+          <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                  <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
               </svg></div>
-      </header>
+  </header>
+
       <main>
+
         <section class="about-services">
             <div class="contenedor">
                 <h2 class="titulo"><a name="servicio">Nuestros servicios</A></h2>
@@ -60,10 +51,17 @@
                            grandes cantidades de datos. Data Science combina la estadística, las matemáticas y la
                             informática para interpretar datos. El objetivo es tomar decisiones.</p>
                     </div>
+                    <div class="servicio-ind">
+                        <img src="img/paginas.svg" alt="">
+                        <h3>Pagina Webs</h3>
+                        <p>Desarrollo y Diseño de páginas web para tu empresa y/o negocio. Construye tu plataforma base
+                           y otorga el nivel profesional que exige el mercado. Realizamos desde Landing Page's hasta Páginas
+                            con funcionalidades avanzadas.</p>
+                    </div>
                 </div>
             </div>
         </section>
-          <section class="contenedor sobre-nosotros">
+          <section class="sobre-nosotros tamaño">
               <h2 class="titulo"><a name="producto">Nuestro producto</a></h2>
               <div class="contenedor-sobre-nosotros">
                   <img src="img/nuestroproducto.svg" alt="" class="imagen-about-us">
@@ -84,16 +82,19 @@
             <h2 class="titulo"><a name="bigdata">Las 3 V del BigData</a></h2>
             <div class="contenedor-sobre-nosotros">
             <div class="contenedor4">
-              <img src="img/volumen.svg" alt="" class="imagen-bigdata">
-              <img src="img/velocidad.svg" alt="" class="imagen-bigdata">
-              <img src="img/variedad.svg" alt="" class="imagen-bigdata">
             </div>
                 <div class="contenido-textos">
+                  <div class="division-img">
+                  <img src="img/volumen.svg" alt="" class="imagen-bigdata">
+                  </div>
                   <div class="separacion1">
                     <h3><span>1</span> Volumen</h3>
                     <p>La cantidad de datos es fundamental, a través del BigData se procesan grandes volúmenes de datos,
                        de diferentes fuentes con distintas formas. Hablamos de que en algunos casos se pueden llegar a procesar
                         decenas de Terabytes o incluso Petabytes.</p>
+                    </div>
+                    <div class="division-img">
+                      <img src="img/velocidad.svg" alt="" class="imagen-bigdata">
                     </div>
                     <div class="separacion2">
                     <h3><span>2</span> Velocidad</h3>
@@ -101,7 +102,10 @@
                        velocidad de procesamiento es un gran reto, sin embargo fundamental. En Crimson trabajamos con las
                         tecnologías más modernas para hacer esto posible.</p>
                     </div>
-                    <div class="separacion1">
+                      <div class="division-img">
+                      <img src="img/variedad.svg" alt="" class="imagen-bigdata">
+                    </div>
+                    <div class="separacion3">
                     <h3><span>3</span>Variedad </h3>
                     <p>La variedad hace referencia a los diversos tipos de datos disponibles. Los tipos de datos convencionales
                        eran estructurados y podían organizarse claramente en una base de datos relacional. Con el auge del
@@ -111,111 +115,127 @@
                   </div>
                 </div>
             </div>
-
-          </section>
+<!--          <footer>
+              <div class="contenedor-footer">
+                  <div class="content-foo">
+                      <h4>Instagram</h4>
+                      <p>@crimson.cl</p>
+                  </div>
+              </div>
+          </footer>-->
           <section class="portafolio">
-              <div class="contenedor">
-                  <h2 class="titulo"><a name="portafolio">Portafolio</a></h2>
-                  <div class="galeria-port">
-                      <div class="imagen-port">
-                          <img src="img/img1.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img2.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img3.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img1.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img4.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img5.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img6.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                      <div class="imagen-port">
-                          <img src="img/img7.jpg" alt="">
-                          <div class="hover-galeria">
-                              <img src="img/icono1.png" alt="">
-                              <p>Nuestro trabajo</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-          <section class="clientes">
-              <h2 class="titulo"><a name="creadores">Fundadores e Instagram</a></h2>
-              <div class="cards">
-                  <div class="card">
-                      <img src="img/cristian.jpeg" alt="">
-                      <div class="contenido-texto-card">
-                          <h4>Cristian Saavedra</h4>
-                          <p>Programador y Desarrollador</p>
-                          <p>Co-Founder</p>
-                          <p>+56940453889</p>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <img src="img/martin.jpg" alt="">
-                      <div class="contenido-texto-card">
-                          <h4>Martin Ortega</h4>
-                          <p>Diseñador e Ilustrador<p>
-                          <p>Co-Founder</p>
-                          <p>+56991866897</p>
-                      </div>
-                  </div>
-              </div>
-          </section>
-          <footer>
-              <div class="contenedor-footer">
-                  <div class="content-foo">
-                      <h4>Email</h4>
-                      <p>crimsondataintelligence@gmail.com</p>
-                  </div>
-              </div>
-          </footer>
-          <footer>
-              <div class="contenedor-footer">
-                  <div class="content-foo">
-                      <h2 class="titulo-final">&copy; Cristian Saavedra | Martin Ortega</h2>
-                  </div>
-              </div>
-          </footer>
-      </main>
-    </div>
+                       <div class="contenedor">
+                           <h2 class="titulo"><a name="portafolio">Colaboradores</a></h2>
+                           <div class="galeria-port">
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador1.jpg" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>ImmediateLab</p>
+                                       <a href="tel:+56944891929" style="color:#fff; text-decoration:none">+56944891929</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador2.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Espacio126</p>
+                                       <a href="https://www.instagram.com/espacio126.cl/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @espacio126.cl</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador3.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Corporación Motum</p>
+                                       <a href="https://www.instagram.com/motumcl/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @motumcl</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador4.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Centro Cultural Líderes</p>
+                                       <a href="https://www.instagram.com/lideres.cc/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @lideres.cc</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+                                   <img src="/img/colaborador5.png" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Geandce digital partner</p>
+                                       <a href="https://www.instagram.com/geandcedigital/" style="color:#fff; text-decoration:none" target="_blank">
+                                         @geandcedigital</a>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->               <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->                       <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                               <div class="imagen-port">
+      <!--Colaborador8 -->                         <img src="" alt="">
+                                   <div class="hover-galeria">
+                                       <img src="/img/icono1.png" alt="">
+                                       <p>Futuros Colaboradores</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </section>
+                   <section class="clientes">
+                       <h2 class="titulo"><a name="creadores">Fundadores</a></h2>
+                       <div class="cards">
+                           <div class="card">
+                               <img src="/img/cristian.jpeg" alt="">
+                               <div class="contenido-texto-card">
+                                   <h4>Cristian Saavedra</h4>
+                                   <p>Programador y Desarrollador</p>
+                                   <p>Co-Founder</p>
+                                   <p>+56940453889</p>
+                               </div>
+                           </div>
+                           <div class="card">
+                               <img src="/img/martin.jpg" alt="">
+                               <div class="contenido-texto-card">
+                                   <h4>Martin Ortega</h4>
+                                   <p>Diseñador e Ilustrador<p>
+                                   <p>Co-Founder</p>
+                                   <p>+56991866897</p>
+                               </div>
+                           </div>
+                       </div>
+
+                   </section>
+             </main>
+             <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                 style="height: 100%; width: 100%;">
+                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                     style="stroke: none; fill: #f2f2f2f2"></path>
+             </svg></div>
+        <footer id="contacto">
+            <div class="contenedor">
+                <h2 class="titulo">Contactanos</h2>
+                <form action="" class="form">
+                    <input class="input"  type="text" name="" id="" placeholder="Nombre">
+                    <input class="input"  type="email" name="" id="" placeholder="Email">
+                    <textarea  class="input" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input class="input"  type="submit" value="Enviar">
+                </form>
+            </div>
+        </footer>
 </body>
 
 </html>
